@@ -1,5 +1,5 @@
 /*
- * BlocksHub a library plugin providing easy access to block loggers 
+ * BlocksHub a library plugin providing easy access to block loggers
  * and block access controllers.
  * Copyright (c) 2016, SBPrime <https://github.com/SBPrime/>
  * Copyright (c) BlocksHub contributors
@@ -7,25 +7,25 @@
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
- * modification, are permitted free of charge provided that the following 
+ * modification, are permitted free of charge provided that the following
  * conditions are met:
  *
  * 1. Redistributions of source code must retain the above copyright notice, this
- *    list of conditions and the following disclaimer. 
+ *    list of conditions and the following disclaimer.
  * 2. Redistributions in binary form must reproduce the above copyright notice,
  *    this list of conditions and the following disclaimer in the documentation
  *    and/or other materials provided with the distribution,
- * 3. Redistributions of source code, with or without modification, in any form 
+ * 3. Redistributions of source code, with or without modification, in any form
  *    other then free of charge is not allowed,
- * 4. Redistributions in binary form in any form other then free of charge is 
+ * 4. Redistributions in binary form in any form other then free of charge is
  *    not allowed.
- * 5. Any derived work based on or containing parts of this software must reproduce 
- *    the above copyright notice, this list of conditions and the following 
- *    disclaimer in the documentation and/or other materials provided with the 
+ * 5. Any derived work based on or containing parts of this software must reproduce
+ *    the above copyright notice, this list of conditions and the following
+ *    disclaimer in the documentation and/or other materials provided with the
  *    derived work.
- * 6. The original author of the software is allowed to change the license 
+ * 6. The original author of the software is allowed to change the license
  *    terms or the entire license of the software as he sees fit.
- * 7. The original author of the software is allowed to sublicense the software 
+ * 7. The original author of the software is allowed to sublicense the software
  *    or its parts using any license terms he sees fit.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
@@ -61,13 +61,13 @@ public final class TypeOnlyBlock {
 
         return create(data.getData(BlockData.class));
     }
-    
+
     public static Block create(
             final BukkitBlockData data) {
 
         return create(data.getData(BlockData.class));
     }
-    
+
     public static Block create(
             final BlockData data) {
 
