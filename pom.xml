@@ -6,7 +6,7 @@
     <groupId>org.primesoft.blockshub</groupId>
     <artifactId>BlocksHub_AllInOne</artifactId>
 
-    <version>${global.bh.version}</version>
+    <version>3.1.1</version>
 
     <repositories>
         <!-- This adds the Spigot Maven repository to the build -->
