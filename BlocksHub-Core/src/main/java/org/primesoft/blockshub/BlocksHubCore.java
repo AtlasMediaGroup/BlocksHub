@@ -266,7 +266,7 @@ public final class BlocksHubCore implements IEnableAware, IBlocksHubApiProvider,
             log(String.format("Resource %1$s entry point %2$s has no default constructor.", resource, entryPoint.getCanonicalName()));
             return;
         }
-        if (!ctor.isAccessible()) {
+        if (!ctor.canAccess(null)) {
             log(String.format("Resource %1$s entry point %2$s has a private default constructor.", resource, entryPoint.getCanonicalName()));
             return;
         }

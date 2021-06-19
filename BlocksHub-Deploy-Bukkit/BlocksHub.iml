@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -13,11 +13,14 @@
     <orderEntry type="module" module-name="BlocksHub-Base" />
     <orderEntry type="module" module-name="BlocksHub-BaseBukkit" />
     <orderEntry type="library" name="Maven: org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.mockito:mockito-core:1.9.5" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.objenesis:objenesis:1.0" level="project" />
     <orderEntry type="module" module-name="BlocksHub-InnerAPI" />
     <orderEntry type="module" module-name="BlocksHub-Core" />
     <orderEntry type="module" module-name="BlocksHub-CoreBukkit" />
     <orderEntry type="module" module-name="BlocksHub-Logger-CoreProtect" />
-    <orderEntry type="library" name="Maven: net.coreprotect:coreprotect:19.3" level="project" />
+    <orderEntry type="library" name="Maven: net.coreprotect:coreprotect:19.5" level="project" />
     <orderEntry type="module" module-name="BlocksHubBukkitApi" />
     <orderEntry type="module" module-name="BlocksHub-Accessor-GriefPrevention" />
     <orderEntry type="library" name="Maven: com.github.TechFortress:GriefPrevention:16.17.1" level="project" />

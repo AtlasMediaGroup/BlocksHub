@@ -33,3 +33,4 @@
 /BlocksHub_Loggers/BlocksHub-Logger-LogBlock/target/
 /BlocksHub_Accessors/BlocksHub-Accessor-WorldGuard/target/
 .idea/*
+BlocksHub-BaseBukkit/dependency-reduced-pom.xml
